@@ -278,7 +278,10 @@ ul {
 /* --------------------team----------------------- */
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--background-item-color);
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-title {
@@ -339,7 +342,9 @@ ul {
 }
 
 .team-social-link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -347,13 +352,16 @@ ul {
   color: var(--icons-media-color);
 }
 
-.team-social-link:hover {
+.team-social-link:hover,
+.team-social-link:focus {
   background-color: var(--accent-color);
   color: var(--white-title-color);
 }
 
 .team-social-icon {
-  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   fill: currentColor;
 }
 
