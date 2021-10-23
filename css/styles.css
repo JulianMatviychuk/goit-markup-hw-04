@@ -363,7 +363,48 @@ ul {
   fill: currentColor;
 }
 
-/* --------------------portfolio----------------------- */
+/* --------------------clients----------------------- */
+
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-text-color);
+  margin-bottom: 50px;
+}
+
+.clients-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icons-media-color);
+  color: var(--icons-media-color);
+  border-radius: 4px;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.clients-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  fill: currentColor;
+}
+
+/* -------------------portfolio---------------------- */
 
 .portfolio-btn-menu {
   display: flex;
